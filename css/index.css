@@ -1,0 +1,558 @@
+/* main上的商店菜单 */
+.main .shop-menu {
+    height: 512px;
+}
+
+.main .shop-menu-header {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+    background-color: #fff;
+}
+
+.main .shop-menu-header .left {
+    float: left;
+    width: 209px;
+    height: 465px;
+    color: #fff;
+}
+
+.main .shop-menu-header .left dt {
+    width: 209px;
+    height: 47px;
+    background-color: #b1191a;
+    font-size: 16px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.main .shop-menu-header .left dd {
+    background-color: #c81623;
+}
+
+.main .shop-menu-header .left dd a {
+    display: block;
+    height: 31px;
+    margin-left: 1px;
+    padding: 0 5px 0 10px;
+    background-color: #c81623;
+    font-size: 14px;
+    line-height: 31px;
+    color: #fff;
+}
+
+.main .shop-menu-header .dropdown dd a:hover {
+    background-color: #f7f7f7;
+    color: #c81623;
+}
+
+.main .shop-menu-header .dropdown dd a::after {
+    content: "\e920";
+    font-family: 'icomoon';
+    float: right;
+}
+
+.main .shop-menu-header .right {
+    float: left;
+    margin-left: 23px;
+}
+
+.main .shop-menu-header .right li {
+    float: left;
+}
+
+.main .shop-menu-header .right li a {
+    display: block;
+    height: 45px;
+    padding: 0 23px;
+    color: #333;
+    line-height: 47px;
+}
+
+.main .shop-menu-header .right li a:hover {
+    background-color: #b1191a;
+    color: #f7f7f7;
+}
+
+.main .shop-menu-main {
+    height: 465px;
+}
+
+.main .shop-menu-main .slide {
+    float: left;
+    width: 721px;
+    height: 455px;
+    margin: 10px 0 0 10px;
+}
+
+.main .shop-menu-main .right-container {
+    float: right;
+    width: 250px;
+    font-size: 14px;
+}
+
+.main .shop-menu-main .right-container a {
+    color: #666;
+}
+
+.main .shop-menu-main .right-container a:hover {
+    color: #c81623;
+}
+
+.main .shop-menu-main .right-container .bulletin {
+    height: 165px;
+    margin-top: 10px;
+    border-bottom: 1px solid #e4e4e4;
+    background-color: #fff;
+}
+
+.main .shop-menu-main .right-container .bulletin dt,
+.main .shop-menu-main .right-container .bulletin dd {
+    padding: 0 13px;
+}
+
+.main .shop-menu-main .right-container .bulletin dt {
+    height: 33px;
+    border-bottom: 1px dashed #e4e4e4;
+    color: #666;
+    line-height: 33px;
+}
+
+.main .shop-menu-main .right-container .bulletin dt .more {
+    float: right;
+}
+
+.main .shop-menu-main .right-container .bulletin dt .more::after {
+    content: "\e920";
+    font-family: 'icomoon';
+}
+
+.main .shop-menu-main .right-container .bulletin dd a {
+    height: 26px;
+    line-height: 26px;
+}
+
+.main .shop-menu-main .right-container .aside-nav {
+    background-color: #fff;
+    height: 207px;
+}
+
+.main .shop-menu-main .right-container .aside-nav li {
+    float: left;
+}
+
+.main .shop-menu-main .right-container .aside-nav a {
+    display: block;
+    width: 63px;
+    height: 69px;
+    padding-top: 13px;
+}
+
+.main .shop-menu-main .right-container .aside-nav li:nth-child(4n) a {
+    width: 61px;
+}
+
+.main .shop-menu-main .right-container .aside-nav li a .background {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    background: url(../images/icons.png);
+}
+
+.main .shop-menu-main .right-container .aside-nav li a .discribe {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main .shop-menu-main .right-container .banner {
+    width: 250px;
+    height: 75px;
+    margin-top: 7px;
+}
+
+/* main上的推荐模块 */
+
+.main .recommend .discounts {
+    margin-top: 10px;
+    height: 163px;
+}
+
+.main .recommend .discounts dl {
+    height: 100%;
+}
+
+.main .recommend .discounts dt {
+    float: left;
+    width: 209px;
+    height: 100%;
+    padding-top: 100px;
+    background-color: #5c5251;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.main .recommend .discounts dd {
+    float: left;
+    width: 247px;
+    height: 100%;
+}
+
+.main .recommend .discounts dd a {
+    position: relative;
+    display: block;
+    position: relative;
+    width: 247px;
+    height: 100%;
+    padding: 22px 0 0 20px;
+    background-color: #ebebeb;
+}
+
+.main .recommend .discounts dd a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .2);
+}
+
+.main .recommend .discounts dd a:hover::after {
+    display: block;
+}
+
+.main .recommend .discounts dd:nth-child(2n+1) {
+    width: 1px;
+    height: 143px;
+    margin-top: 10px;
+    background-color: #ddd;
+}
+
+.main .recommend .discounts dd:nth-child(2n) img {
+    position: absolute;
+    top: 26px;
+    right: 34px;
+}
+
+.main .recommend .discounts .discounts-discribe {
+    width: 100px;
+}
+
+.main .recommend .discounts dd a h3 {
+    color: #333;
+    font-size: 16px;
+}
+
+.main .recommend .discounts dd a .discounts-main {
+    float: left;
+    height: 18px;
+    margin: 10px 0 5px;
+    padding: 0 3px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.main .recommend .discounts dd:nth-child(2) a .discounts-main {
+    background-color: #00a0e8;
+}
+
+.main .recommend .discounts dd:nth-child(4) a .discounts-main {
+    background-color: #5fb200;
+}
+
+.main .recommend .discounts dd:nth-child(6) a .discounts-main {
+    background-color: #e2162f;
+}
+
+.main .recommend .discounts dd:nth-child(8) a .discounts-main {
+    background-color: #0085fb;
+}
+
+.main .recommend .discounts a .discounts-other {
+    float: left;
+    height: 18px;
+    padding: 0 3px;
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.main .recommend .discounts dd a button {
+    width: 58px;
+    height: 18px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 9px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.main .recommend .discounts dd:nth-child(4) a button {
+    background-color: #5fb200;
+}
+
+.main .recommend .discounts dd:nth-child(6) a button {
+    background-color: #e2162f;
+}
+
+.main .recommend .discounts dd:nth-child(8) a button {
+    background-color: #0085fb;
+}
+
+.main .recommend .enjoy {
+    height: 272px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.main .recommend .enjoy-top {
+    height: 39px;
+    padding: 0 10px;
+    line-height: 39px;
+}
+
+.main .recommend .enjoy-top h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.main .recommend .enjoy-top span {
+    float: right;
+}
+
+.main .recommend .enjoy-top span a {
+    display: block;
+    font-size: 12px;
+    color: #666;
+}
+
+.main .recommend .enjoy-top span a .background {
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin: 13px 0 0 8px;
+    background: url(../images/icons.png) -421px -111px;
+}
+
+.main .recommend .enjoy-main {
+    height: 233px;
+    overflow: hidden;
+}
+
+.main .recommend .enjoy-main ul {
+    height: 100%;
+}
+
+.main .recommend .enjoy-main li {
+    float: left;
+    height: 100%;
+}
+
+.main .recommend .enjoy-main ul li:nth-child(2n) {
+    width: 0;
+    height: 62px;
+    margin-top: 160px;
+    border: 1px solid #ededed;
+}
+
+.main .recommend .enjoy-main li a {
+    display: block;
+    width: 199px;
+    height: 100%;
+}
+
+.main .recommend .enjoy-main ul:last-child a {
+    width: 198px;
+}
+
+.main .recommend .enjoy-main ul li a .pic {
+    position: relative;
+    height: 156px;
+    padding-top: 15px;
+}
+
+.main .recommend .enjoy-main ul li a .pic img {
+    display: block;
+    margin: 0 auto;
+}
+
+.main .recommend .enjoy-main ul li:nth-child(7) a .pic {
+    padding-top: 60px;
+}
+
+.main .recommend .enjoy-main ul li a h4 {
+    width: 120px;
+    height: 35px;
+    margin-left: 40px;
+    font-family: "\5B8B\4F53";
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+
+.main .recommend .enjoy-main ul li a:hover h4 {
+    color: #df3033;
+}
+
+.main .recommend .enjoy-main ul li a .price {
+    margin-left: 40px;
+    font-size: 18px;
+    color: #df3033;
+}
+
+.main .recommend .enjoy-main ul li a .pic::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .2);
+}
+
+.main .recommend .enjoy-main ul li a:hover .pic::before {
+    display: block;
+}
+
+/* 家用电梯模块 */
+.main .floor a {
+    font-size: 12px;
+    color: #666;
+}
+
+.main .floor .w {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.main .floor a:hover {
+    color: #c81623;
+}
+
+.main .floor .box_hd {
+    height: 39px;
+    border-bottom: 2px solid #F4F4F4;
+    line-height: 39px;
+}
+
+.main .floor .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.main .floor .box_hd .tab_list {
+    float: right;
+    line-height: 39px;
+}
+
+.main .floor .box_hd .tab_list ul li {
+    float: left;
+}
+
+.main .floor .box_hd .tab_list ul li a {
+    margin: 0 15px;
+}
+
+.main .floor .box_hd .tab_list ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    margin-top: 14px;
+    background-color: #999;
+}
+
+.main .floor .box_bd {
+    height: 361px;
+}
+
+.main .floor .tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.main .floor .tab_list_item .pic {
+    position: relative;
+    display: block;
+}
+
+.main .floor .tab_list_item .pic::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .2);
+}
+
+.main .floor .tab_list_item .pic:hover::after {
+    display: block;
+}
+
+.main .floor .col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.main .floor .col_210 ul {
+    height: 102px;
+    padding-left: 12px;
+}
+
+.main .floor .col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #F4F4F4;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.main .floor .col_329 {
+    width: 329px;
+}
+
+.main .floor .col_221 {
+    width: 221px;
+    border-right: 1px solid #F4F4F4;
+}
+
+.main .floor .col_219 {
+    width: 219px;
+}
+
+.main .floor .bb {
+    display: block;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.aside-position-nav {
+    position: absolute;
+    top: 647px;
+    right: 0;
+    width: 50px;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.aside-position-nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #666;
+}
+
+.aside-position-nav ul li a:hover {
+    background-color: #c81623;
+    color: #fff;
+}
